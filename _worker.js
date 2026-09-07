@@ -6,7 +6,7 @@ import { connect } from "cloudflare:sockets";
 var userID = "";                    // VLESS: UUID (optional if only TROJAN)
 var trojanPass = "";              // TROJAN: password (optional if only VLESS)
 var proxyIP = "cdn-b100.xn--b6gac.eu.org";
-var githubProxyURL = "https://raw.githubusercontent.com/gprox-galaxy/Gproxy-domaip/refs/heads/main/PROXYIP.txt";
+var githubProxyURL = "https://galaxytunnel.github.io/PROXYIP.txt";
 
 // DoH Providers (3 URLs with failover)
 var dohURLs = [
