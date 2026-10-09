@@ -1,15 +1,11 @@
-name = "zero" 
-main = "_worker.js"
+name = "galaxytunnel"
+pages_build_output_dir = "."
 compatibility_date = "2024-03-20"
 compatibility_flags = [ "nodejs_compat" ]
 
-# ✅ ဒီ line ကို ထည့်ပါ
-keep_vars = true
-
 [vars]
-# UUID ကို ဒီမှာ မထည့်ထားဘူး (Dashboard မှာ ထည့်ထားမယ်)
-PROXYIP = "cdn-b100.xn--b6gac.eu.org"
-PROXY_LIST_URL = "https://galaxytunnel.github.io/PROXYIP.txt"
-DNS_RESOLVER_URL = ["https://2mms0p4zud.cloudflare-gateway.com/dns-query",
-  "https://dns.google/dns-query",
-  "https://dns.quad9.net/dns-query"]
+WS_PATH = "galaxy-tunnel"
+PROXYIP = "galaxytunnel.cloud-ip.cc"
+
+DNS_RESOLVER_URL = "https://cloudflare-dns.com/dns-query"
+UUID = "6836046c-1c7a-44c6-887d-62e7310ba0af"
